@@ -1,0 +1,460 @@
+* {
+ margin: 0;
+ padding:0 ;
+
+ 
+}
+
+@font-face{
+    font-family: gotham-black;
+    src: url(./fonts/gotham-black.woff2);
+}
+
+
+img {
+    text-align: center;
+    width: 100px;
+    padding-left:50PX;
+
+}
+.cabeça {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.smart {
+    margin-left: -580px;
+}
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -550px;
+    
+}
+
+.corpo {
+    background-color: black;
+    height: 5px;
+    width: 50px;
+    margin-left: -630px;
+    text-align: center;
+}
+.p2 {
+    margin-left: -190px;
+}
+p {
+    margin-left: 70px;
+
+}
+.relogio {
+    width: 20px;
+    margin-top: 20px;
+    margin-left: -670px;
+    
+
+}
+.quadro {
+    border: #808080 2px solid;
+    background-color: rgb(253, 253, 255);
+    height: 400px;
+    width: 750px;
+    margin-left: 70px;
+    border-radius: 5px;
+    
+    
+}
+.paragrafo {
+    margin-left: 2px;
+    display: inline;
+    margin-inline: 1px;
+    
+    
+    
+}
+.h3 {
+    color: #808080;
+    margin-left: -450px;
+    
+}
+hr {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 700px;
+    
+    
+}
+.result {
+    color: #808080;
+    margin-left: 535px;
+}
+.manhã {
+    margin-left: -300px;
+    
+}
+input {
+    margin-left: 60px;
+    
+}
+.marcação {
+    margin-left: -485px;
+}
+.Exibir{
+    margin-left: 0px;
+    
+}
+.unidade{
+    background-color: #ffb612;
+    border: #ffb612;
+    width: 200px;
+    height: 35px;
+    border-radius: 3px;
+    margin-left: -45px;
+    font-family: gotham-black;
+    
+}
+.limpar {
+    width: 200px;
+    height: 35px;
+    border-radius: 3px;
+    margin-left: 30px;
+    background-color: #fff;
+    font-family: gotham-black;
+    
+    
+    
+
+
+}
+h5 {
+    color: #808080;
+    margin-left: 530px;
+    
+
+    
+
+}
+b {
+    color: black;
+    
+}
+.bolinha1 {
+    margin-left: -600px;
+}
+.bolinha2 {
+    margin-left: -605px;
+}
+.bolinha3 {
+    margin-left: -605px;
+}
+.Manhã {
+    font-family: gotham-black;
+    color: #808080;
+
+}
+.Tarde {
+    font-family: gotham-black;
+    color: #808080;
+}
+.Noite {
+    font-family: gotham-black;
+    color: #808080;
+}
+.horario1 {
+    text-align: right;
+    margin-top: -18px;
+    margin-right: 30px;
+    font-family: gotham-black;
+    color: #808080;
+    
+}
+.horario2 {
+    text-align: right;
+    margin-top: -18px;
+    margin-right: 30px;
+    font-family: gotham-black;
+    color: #808080;
+    
+}
+.horario3 {
+    text-align: right;
+    margin-top: -18px;
+    margin-right: 30px;
+    font-family: gotham-black;
+    color: #808080;
+    
+
+}
+
+
+.mascaras {
+    margin-left: -520px;
+    padding: 20px;
+    font-family: gotham-black;
+    color: black;
+    
+}
+.toalha {
+    margin-left: -155px;
+    margin-top: -80px;
+    font-family: gotham-black;
+    color: black;
+}
+.toalha1 {
+    margin-left: -200px;
+    width: 40px;
+    margin-top: 20px;
+   
+}
+.mask1 {
+    width: 40px;
+    margin-left: -585px;
+}
+.mask2 {
+    width: 40px;
+    
+}
+.toalha2 {
+    margin-left: -5px;
+    width: 40px;
+   
+}
+.bebedouro {
+    margin-top: -80px;
+    margin-left: 195px;
+    font-family: gotham-black;
+    color: black;
+}
+.garr1 {
+    margin-left: 140px;
+    width: 40px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+}
+.garr2 {
+    width: 40px;
+    margin-left: -20px;
+    margin-top: 16px;
+    padding-bottom: 0px;
+}
+.vestiarios {
+    margin-left: 550px;
+    margin-top: -78px;
+    font-family: gotham-black;
+    color: black;
+}
+.liberado {
+    margin-left: 450px;
+    width: 40px;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+.parcial {
+    width: 40px;
+    margin-left: -40px;
+    margin-top: -40px;
+    padding-bottom: 40px;
+}
+.fechado {
+    width: 40px;
+    margin-left: 610px;
+    margin-top: -90px;
+    padding-bottom: 58px;
+}
+.obrigatorio4 {
+    margin-left: -630px;
+    margin-top: -50px;
+    padding-bottom: 20px;
+   
+   
+}
+.recomendado {
+    margin-left: -440px;
+    margin-top: -35px;
+    padding-bottom: 20px;
+}
+.obrigatorio2 {
+    margin-left: -240px;
+    margin-top: -35px;
+    padding-bottom: 20px;
+}
+.recomendado2 {
+    margin-left: -50px;
+    margin-top: -55px;
+    padding: 20px;
+}
+.parcial2 {
+    margin-left: 120px;
+    margin-top: -55px;
+    padding: 20px;
+}
+.proibido {
+    margin-left: 260px;
+    margin-top: -55px;
+    padding: 20px;
+}
+.liberado2 {
+    margin-left: 450px;
+    margin-top: -35px;
+    padding-bottom:20px ;
+}
+.parcial3 {
+    margin-left: 555px;
+    margin-top: -37px;
+    padding-bottom: 20px;
+}
+.proibido2 {
+    margin-left: 665px;
+    margin-top: -35px;
+    padding-bottom: 20px;
+}
+.itens {
+    background-color: rgb(225, 225, 225) ;
+    width: 750px;
+    margin-left: 70px;
+    border-radius: 3px;
+
+}
+.aberto {
+    background-color: rgb(225, 225, 225);
+    width: 255px;
+    height: 320px;
+    border-radius: 8px;
+    margin-left: -440px;
+}
+.aberto2 {
+    color: #2FC022;
+    margin-left: -190px;
+    padding: 10px;
+}
+.linhares {
+    margin-left: -80px;
+    margin-top: 0px;
+    font-family: gotham-black;
+}
+.rua {
+    margin-left: -40px;
+    color: #808080;
+    
+}
+.rua2 {
+    margin-left: -175px;
+    color: #808080;
+}
+.rua3 {
+    margin-left: -145px;
+    color: #808080;
+}
+.hr2 {
+    width: 210px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.mask3 {
+  width: 40px;
+  margin-left: -70px;
+}
+.toalha3 {
+    width: 40px;
+    margin-left: -40px;
+}
+.garr3 {
+    width: 40px;
+    margin-left: -40px;
+}
+.fechado {
+    width: 40px;
+}
+.dia {
+    margin-left: -85px;
+    font-family: gotham-black;
+    color: black;
+}
+.dia2 {
+    margin-left: -170px;
+    color: black;
+    font-family: gotham-black;
+}
+.horas {
+    margin-left: -155px;
+    margin-top: -10px;
+    color: #808080; 
+      
+}
+.horas5 {
+    margin-left: -160px;
+    color: #808080;
+}
+.horas2 {
+    margin-left: 100px;
+    margin-top: -15px;
+    color: #808080;
+}
+.fechado1 {
+    background-color: rgb(225, 225, 225);
+    width: 255px;
+    height: 320px;
+    border-radius: 8px;
+    margin-left: 80px;
+    margin-top: -320px;
+}
+.fechado2 {
+    color:red;
+    margin-left: -170px;
+    
+    padding: 10px;
+
+    /*position:relative;
+    top:10px;
+    left:10px;
+    */
+
+}.vila {
+    margin-left: -110px;
+    margin-top: -2px;
+    font-family: gotham-black;
+}
+.avenida {
+    margin-left: 15px;
+    color: #808080;
+}
+.avenida2 {
+    margin-left: -130px;
+    color: #808080;
+}
+.cabide {
+    width: 40px;
+    margin-left: -50px;
+}
+.fechado3 {
+    background-color: rgb(225, 225, 225);
+    width: 255px;
+    height: 320px;
+    border-radius: 8px;
+    margin-left: 600px;
+    margin-top: -320px;
+
+}
+.fechado4 {
+    color:red;
+    margin-left: -170px;
+    padding: 10px;
+
+}
+.pés {
+    background-color: #808080;
+  
+}
+.direito {
+    color: white;
+    margin-left: 30px;
+}
+.logo {
+    width: 120px;
+    margin-top: 10px;
+}
+
+li {
+    list-style-type: none;
+    }
