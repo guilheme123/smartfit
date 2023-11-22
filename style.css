@@ -9,6 +9,18 @@
     font-family: gotham-black;
     src: url(./fonts/gotham-black.woff2);
 }
+@font-face{
+    font-family: gotham-bold;
+    src: url(./fonts/gotham-bold.woff2);
+}
+@font-face{
+    font-family: gotham-book;
+    src: url(./fonts/gotham-book.woff2);
+}
+@font-face{
+    font-family: gotham-light;
+    src: url(./fonts/gotham-light.woff2);
+}
 
 
 img {
@@ -29,9 +41,8 @@ img {
     margin-left: -580px;
 }
 h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: -550px;
-    
+    font-family: gotham-black;
 }
 
 .corpo {
@@ -76,7 +87,7 @@ p {
 .h3 {
     color: #808080;
     margin-left: -450px;
-    
+    font-family: gotham-book;
 }
 hr {
     margin-left: 30px;
@@ -88,6 +99,8 @@ hr {
 .result {
     color: #808080;
     margin-left: 535px;
+    margin-top: -15px;
+   
 }
 .manhã {
     margin-left: -300px;
@@ -99,6 +112,7 @@ input {
 }
 .marcação {
     margin-left: -485px;
+    
 }
 .Exibir{
     margin-left: 0px;
@@ -107,15 +121,15 @@ input {
 .unidade{
     background-color: #ffb612;
     border: #ffb612;
-    width: 200px;
+    width: 250px;
     height: 35px;
     border-radius: 3px;
-    margin-left: -45px;
+    margin-left: 35px;
     font-family: gotham-black;
     
 }
 .limpar {
-    width: 200px;
+    width: 250px;
     height: 35px;
     border-radius: 3px;
     margin-left: 30px;
@@ -149,23 +163,23 @@ b {
     margin-left: -605px;
 }
 .Manhã {
-    font-family: gotham-black;
+    font-family: gotham-book;
     color: #808080;
 
 }
 .Tarde {
-    font-family: gotham-black;
+    font-family: gotham-book;
     color: #808080;
 }
 .Noite {
-    font-family: gotham-black;
+    font-family: gotham-book;
     color: #808080;
 }
 .horario1 {
     text-align: right;
     margin-top: -18px;
     margin-right: 30px;
-    font-family: gotham-black;
+    font-family: gotham-light;
     color: #808080;
     
 }
@@ -173,7 +187,7 @@ b {
     text-align: right;
     margin-top: -18px;
     margin-right: 30px;
-    font-family: gotham-black;
+    font-family: gotham-light;
     color: #808080;
     
 }
@@ -181,8 +195,9 @@ b {
     text-align: right;
     margin-top: -18px;
     margin-right: 30px;
-    font-family: gotham-black;
+    font-family: gotham-light;
     color: #808080;
+    
     
 
 }
@@ -443,7 +458,8 @@ b {
 
 }
 .pés {
-    background-color: #808080;
+    background-color: #3a3737;
+    padding: 50px;
   
 }
 .direito {
